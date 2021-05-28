@@ -1,24 +1,27 @@
 # recruitment-task
 
-## Project setup
-```
-npm install
-```
+## Lista planet - vue.js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Zadanie polega na utworzeniu strony wyświetlającej listę planet. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Lista powinna zostać pobrana z zewnętrznego API znajdującego się pod tym adresem: https://swapi.dev/api/planets.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Zapytania z API idą czasem bardzo długo, więc należałoby dodać loading. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Każdy element listy powinien być ostylowany oraz powinien zawierać następujące parametry:
+* name
+* rotation_period
+* climate
+* gravity
+* created
+* url
+
+Dodatkowym plusem będzie stworzenie paginacji oraz filtrowania aktualnej strony po którymś z parametrów oraz posortowanie listy alfabetycznie.
+
+Możesz wykorzystać bibliotekę komponentów **Element UI**. 
+
+Finalny projekt zapisz jako repozytorium w w githubie i udostępnij nam link.
+
+W zadaniu staraj się zwracać uwagę na dobre praktyki oraz na to żeby aplikacja była responsywna.
+
+Jeśli nie uda Ci się zrobić zadania na czas lub będziesz miał problem z komunikacją z API, możesz skupić się tylko na ostylowaniu listy dla jakiś statycznych danych oraz na responsywności.
