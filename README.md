@@ -1,10 +1,10 @@
 # recruitment-task
 
-## Lista planet - vue.js
-
 Po sklonowaniu repozytorium, zainstaluj wszystkie pakiety z pliku **package.json**. Użyj do tego komendy: 
 
 ```yarn install ```
+## Lista planet - vue.js
+
 
 Zadanie polega na utworzeniu strony wyświetlającej listę planet. 
 
