@@ -2,9 +2,15 @@
 
 ## Lista planet - vue.js
 
+Po sklonowaniu repozytorium, zainstaluj wszystkie pakiety z pliku **package.json**. Użyj do tego komendy: 
+
+```yarn install ```
+
 Zadanie polega na utworzeniu strony wyświetlającej listę planet. 
 
 Lista powinna zostać pobrana z zewnętrznego API znajdującego się pod tym adresem: https://swapi.dev/api/planets.
+
+Do pobrania danych z API wykorzystaj **AJAX**.
 
 Zapytania z API idą czasem bardzo długo, więc należałoby dodać loading. 
 
