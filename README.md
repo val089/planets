@@ -22,7 +22,7 @@ Każdy element listy powinien być ostylowany oraz powinien zawierać następuj�
 * created
 * url
 
-Dodatkowym plusem będzie stworzenie paginacji oraz filtrowania aktualnej strony po którymś z parametrów oraz posortowanie listy alfabetycznie.
+Dodatkowym plusem będzie stworzenie paginacji oraz filtrowania aktualnej strony po którymś z parametrów.
 
 Możesz wykorzystać bibliotekę komponentów **Element UI**. 
 
