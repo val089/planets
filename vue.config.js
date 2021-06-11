@@ -1,21 +1,21 @@
-const path = require('path')
+const path = require('path');
 
-const resolve = dir => path.join(__dirname, dir)
+const resolve = (dir) => path.join(__dirname, dir);
 
 module.exports = {
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.vue', '.json'],
       alias: {
-        '@$': resolve('src')
-      }
-    }
+        '@$': resolve('src'),
+      },
+    },
   },
   css: {
     loaderOptions: {
       sass: {
-        prependData: '@import "@/assets/styles/__variables.sass";'
-      }
-    }
-  }
-}
+        prependData: '@import "@/assets/styles/__variables.sass";',
+      },
+    },
+  },
+};
