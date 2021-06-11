@@ -1,0 +1,33 @@
+.planets {
+  background-color: $main-color;
+  color: $second-color;
+
+  &__search-group {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &__search {
+    width: 100%;
+    background: $light-blue;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: $second-color;
+  }
+
+  &__pagination {
+    margin: 40px 0;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
