@@ -1,0 +1,7 @@
+.base-pagination-trigger {
+  cursor: pointer;
+  transition: all 300ms ease;
+  &:hover {
+    color: $c-primary-accent--dark;
+  }
+}
