@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: $main-color;
+}
+
+a,
+button {
+  font-family: 'Poppins', sans-serif;
+}
