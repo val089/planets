@@ -1,0 +1,37 @@
+.planet-item {
+  background: linear-gradient(315deg, rgba(100, 0, 200, 1) 68%, rgba(181, 88, 0, 1) 100%);
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 1px 1px 15px #000;
+
+  &__name {
+    font-size: 24px;
+    border-bottom: 1px solid $second-color;
+  }
+
+  &__text {
+    padding: 5px 0;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__data {
+    font-weight: 400;
+  }
+
+  &__link {
+    color: $second-color;
+  }
+
+  &__image {
+    width: 60px;
+    position: absolute;
+    right: -5%;
+    top: -5%;
+  }
+}
