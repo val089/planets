@@ -31,6 +31,23 @@
     font-size: 18px;
   }
 
+  &__cta-container {
+    margin-top: 40px;
+  }
+
+  &__cta {
+    border-radius: 10px;
+    text-decoration: none;
+    color: $second-color;
+    background: rgba(100, 0, 200, 1);
+    padding: 10px 20px;
+    transition: 0.2s;
+
+    &:hover {
+      background: rgba(100, 0, 200, 0.8);
+    }
+  }
+
   &__image-container {
     max-width: 700px;
   }
