@@ -5,12 +5,13 @@
 </template>
 
 <script>
-import PlanetsList from '@/components/PlanetsList'
+import PlanetsList from '@/components/PlanetsList';
 
 export default {
   name: 'Home',
   components: {
-    PlanetsList
-  }
-}
+    PlanetsList,
+  },
+};
 </script>
+<style src="./style.scss" lang="scss" scoped></style>
