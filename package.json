@@ -23,6 +23,7 @@
     "vue": "^2.6.11",
     "vue-axios": "^3.2.4",
     "vue-router": "^3.2.0",
+    "vue-uuid": "^2.0.2",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -41,9 +42,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "4.14.1",
     "husky": "^4.3.8",
     "lint-staged": "^11.0.0",
+    "node-sass": "4.14.1",
     "prettier": "^2.3.1",
     "sass-loader": "8.0.0",
     "vue-template-compiler": "^2.6.11"

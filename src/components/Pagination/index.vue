@@ -3,7 +3,6 @@
     <PaginationButton :disabled="isPreviousButtonDisabled" @click.native="previousPage">
       ←
     </PaginationButton>
-
     <PaginationTrigger
       v-for="paginationTrigger in paginationTriggers"
       :class="{
@@ -14,7 +13,6 @@
       class="pagination__description"
       @loadPage="onLoadPage"
     />
-
     <PaginationButton :disabled="isNextButtonDisabled" @click.native="nextPage">
       →
     </PaginationButton>

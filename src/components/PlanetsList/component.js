@@ -1,11 +1,8 @@
-// @vue/component
-import Vue from 'vue';
 import axios from 'axios';
-import VueAxios from 'vue-axios';
+import { uuid } from 'vue-uuid';
 import PlanetItem from '@/components/PlanetItem';
 import Pagination from '@/components/Pagination';
 import Spinner from '@/components/Spinner';
-Vue.use(VueAxios, axios);
 
 export default {
   name: 'PlanetsList',
@@ -31,8 +28,7 @@ export default {
     try {
       this.loading = true;
       const { data } = await axios.get(`https://swapi.dev/api/planets/?page=1`);
-      this.planets = data.results;
-      console.log(data.results);
+      this.planets = this.addId(data.results);
       this.loading = false;
       this.pageCount = Math.ceil(data.count / this.$options.static.visibleItemsPerPageCount);
     } catch (error) {
@@ -63,12 +59,15 @@ export default {
       try {
         this.loading = true;
         const { data } = await axios.get(`https://swapi.dev/api/planets/?page=${this.currentPage}`);
-        this.planets = data.results;
+        this.planets = this.addId(data.results);
         this.loading = false;
       } catch (error) {
         this.loading = false;
         this.error = true;
       }
+    },
+    addId(data) {
+      return data.map((el) => ({ ...el, id: uuid.v4() }));
     },
   },
 };
