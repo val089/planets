@@ -16,14 +16,10 @@
     </p>
     <p class="planet-item__text">
       Url:
-      <span class="planet-item__data"
-        ><a
-          class="planet-item__link"
-          :href="planet.url"
-          target="_blank"
-          rel="noopener noreferrer"
-          >{{ planet.url }}</a
-        >
+      <span class="planet-item__data">
+        <a class="planet-item__link" :href="planet.url" target="_blank" rel="noopener noreferrer">{{
+          planet.url
+        }}</a>
       </span>
     </p>
   </div>
