@@ -1,6 +1,6 @@
 # The Planets
 
-Form where you can put an dish order.
+App which displays planets from API.
 
 ![planets01](https://user-images.githubusercontent.com/30775271/121774110-eac58e00-cb80-11eb-9966-8678503e5516.JPG)
 
