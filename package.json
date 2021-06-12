@@ -1,13 +1,10 @@
 {
   "name": "the-planets",
-  "homepage": "https://val089.github.io/the-planets/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "lint-staged": {
@@ -50,7 +47,6 @@
     "node-sass": "4.14.1",
     "prettier": "^2.3.1",
     "sass-loader": "8.0.0",
-    "vue-template-compiler": "^2.6.11",
-    "gh-pages": "^3.2.0"
+    "vue-template-compiler": "^2.6.11"
   }
 }
