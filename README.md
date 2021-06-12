@@ -6,10 +6,6 @@ App which displays planets from API.
 
 ![planets02](https://user-images.githubusercontent.com/30775271/121774120-016be500-cb81-11eb-8e16-23f975b73a88.JPG)
 
-## Project setup
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### Requirements
 
 You’ll need to have **Node >= 10** on your local development machine.
