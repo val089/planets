@@ -6,9 +6,6 @@ import Spinner from '@/components/Spinner';
 
 export default {
   name: 'PlanetsList',
-  static: {
-    visibleItemsPerPageCount: 10,
-  },
   data() {
     return {
       planets: [],
@@ -17,6 +14,7 @@ export default {
       currentPage: 1,
       pageCount: 0,
       search: '',
+      visibleItemsPerPageCount: 10,
     };
   },
   components: {
@@ -30,7 +28,7 @@ export default {
       const { data } = await axios.get(`https://swapi.dev/api/planets/?page=1`);
       this.planets = this.addId(data.results);
       this.loading = false;
-      this.pageCount = Math.ceil(data.count / this.$options.static.visibleItemsPerPageCount);
+      this.pageCount = Math.ceil(data.count / this.visibleItemsPerPageCount);
     } catch (error) {
       this.loading = false;
       this.error = true;
